@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="tr-TR" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://kindyroo.net/xmlrpc.php" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--><title>Ana Sayfa - KindyROO Türkiye</title>
+
+ <script type='text/javascript'>
+	var mytheme_urls = {
+		 theme_base_url:'https://kindyroo.net/wp-content/themes/kidslife/'
+ 		,framework_base_url:'https://kindyroo.net/wp-content/themes/kidslife/framework/'
+ 		,ajaxurl:'https://kindyroo.net/wp-admin/admin-ajax.php'
+ 		,url:'https://kindyroo.net'
+ 		,scroll:'disable'
+ 		,stickynav:'disable'
+ 		,is_admin:''
+ 		,skin:'kindyroo'
+ 		,layout:'wide'
+ 		,isResponsive:'enable'
+ 		,layout_pattern:''
+	};
+ </script>
+<link href='http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png' rel='shortcut icon' type='image/x-icon' />
+<link href='http://kindyroo.net/wp-content/uploads/2016/02/apple-touch-icon.png' rel='apple-touch-icon-precomposed'/>
+<link href='http://kindyroo.net/wp-content/uploads/2016/02/apple-touch-icon-72x72.png' sizes='114x114' rel='apple-touch-icon-precomposed'/>
+<link href='http://kindyroo.net/wp-content/uploads/2016/02/apple-touch-icon-114x114.png' sizes='72x72' rel='apple-touch-icon-precomposed'/>
+<link href='http://kindyroo.net/wp-content/uploads/2016/02/apple-touch-icon-144x144.png' sizes='144x144' rel='apple-touch-icon-precomposed'/>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://kindyroo.net/" />
+<meta property="og:locale" content="tr_TR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Ana Sayfa - KindyROO Türkiye" />
+<meta property="og:url" content="https://kindyroo.net/" />
+<meta property="og:site_name" content="KindyROO Türkiye" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/sunum.png" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/brosur.png" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/arastirma.png" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(1).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(2).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(3).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(4).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(5).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(6).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k%20(7).jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/images/mask.png" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-margaret.jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-jane.jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-ogan.jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-zeynep.jpg" />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-sube.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Ana Sayfa - KindyROO Türkiye" />
+<meta name="twitter:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/kindyroo.net\/","name":"KindyROO T\u00fcrkiye","potentialAction":{"@type":"SearchAction","target":"https:\/\/kindyroo.net\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/kindyroo.net\/","sameAs":[],"name":"KindyROO","logo":""}</script>
+<meta name="google-site-verification" content="ogwNWDXKmzhMs9rv2PaZfvqW8G8cy5SoFMP3olmoSaM" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="KindyROO Türkiye &raquo; Beslemesi" href="https://kindyroo.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="KindyROO Türkiye &raquo; Yorum Beslemesi" href="https://kindyroo.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="KindyROO Türkiye &raquo; Ana Sayfa Yorum Beslemesi" href="https://kindyroo.net/ana-sayfa/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/kindyroo.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dt-animation-css-css'  href='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/css/animations.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-flex-css-css'  href='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/css/flexslider.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-sc-css-css'  href='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/css/shortcodes.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-animations-css'  href='https://kindyroo.net/wp-content/plugins/designthemes-core-features/page-builder/css/animations.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://kindyroo.net/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://kindyroo.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive_map_css-css'  href='https://kindyroo.net/wp-content/plugins/responsive-maps-plugin/includes/css/rsmaps.css?ver=2.24' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://kindyroo.net/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.0.5' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='prettyphoto-css'  href='https://kindyroo.net/wp-content/themes/kidslife/css/prettyPhoto.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://kindyroo.net/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='kidslife-default-css'  href='https://kindyroo.net/wp-content/themes/kidslife/style.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-font-awesome-css'  href='https://kindyroo.net/wp-content/themes/kidslife/css/font-awesome.min.css?ver=3.0.2' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='ie8-and-down-css'  href='https://kindyroo.net/wp-content/themes/kidslife/css/ie8-and-down.css?ver=4.4.4' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='responsive-css'  href='https://kindyroo.net/wp-content/themes/kidslife/responsive.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='skin-css'  href='https://kindyroo.net/wp-content/themes/kidslife/skins/kindyroo/style.css?ver=4.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='kidslife-child-css'  href='https://kindyroo.net/wp-content/themes/kidslife-child/style.css?ver=4.4.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://kindyroo.net/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.8'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.5.1'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=5.5.1'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.0.5'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.0.5'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/modernizr.min.js?ver=4.4.4'></script>
+<link rel='https://api.w.org/' href='https://kindyroo.net/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kindyroo.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kindyroo.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.4" />
+<link rel='shortlink' href='https://kindyroo.net/' />
+<meta property="og:image" content="http://kindyroo.net/wp-content/themes/kidslife-child/images/og-image.png"><meta property="og:image:width" content="600" /><meta property="og:image:height" content="315" /><meta name="generator" content="Powered by Slider Revolution 5.0.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+</head>
+<body class="home page page-id-2 page-template page-template-tpl-fullwidth page-template-tpl-fullwidth-php">
+
+<!-- **Wrapper** -->
+<div class="wrapper">
+	<!--inner-wrapper starts-->
+	<div class="inner-wrapper">
+
+	<!-- header starts -->
+	<!-- **Header** -->
+<header id="header" class="header1">
+
+	<div class="container">
+		<div class="logo">				<a href="https://kindyroo.net" title="KindyROO Türkiye">
+					<img class="normal_logo" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/logo.png" alt="KindyROO Türkiye" title="KindyROO Türkiye"/>
+                    <img class="retina_logo" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/logo@2x.png" alt="KindyROO Türkiye"
+                    	 title="KindyROO Türkiye" style="width:350px;; height:95px;;"/>
+				</a>        </div>
+        <div class="contact-details">
+        	<p class="mail">                <a href="mailto:%69nfo&#64;&#107;&#105;n&#100;y&#114;%6fo&#46;&#110;e&#116;" title="">i&#110;f&#111;&#64;&#107;i&#110;&#100;y&#114;o&#111;.ne&#116;</a>
+            	<span class="fa fa-envelope"></span>
+            </p>
+            <p class="phone-no">
+            	0216 575 01 57            	<span class="fa fa-phone"></span>
+            </p>
+          <!--<div class="subtitle">
+            Uluslararası Erken Çocukluk<br>
+            Dönemi Gelişim Akademisi
+          </div>-->
+        </div>
+        <div class="badge">
+          <a href="/deneme/" title="Deneme dersi randevusu için tıklayın!">
+            <!--<strong>DENEME<br>DERSİ</strong><br>RANDEVUSU<br>İÇİN<br>TIKLAYIN!-->
+          </a>
+        </div>
+	</div>
+    
+    <!--menu-container starts-->
+	<div id="menu-container">
+    	<div class="container">
+        	<!-- ** Navigation Starts ** -->
+            <nav id="main-menu">
+            	<div class="dt-menu-toggle" id="dt-menu-toggle">
+                	Menü                    <span class="dt-menu-toggle-icon"></span>
+                </div><ul id="menu-top-menu" class="menu"><li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/">Ana Sayfa</a></li>
+<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/5n1k/">5N1K ile<span class="line-break"></span>KindyROO</a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/5n1k/ne/">Ne?</a></li>
+	<li id="menu-item-807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/5n1k/neden/">Neden?</a></li>
+	<li id="menu-item-806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/5n1k/nasil/">Nasıl?</a></li>
+	<li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/5n1k/nerede/">Nerede?</a></li>
+	<li id="menu-item-804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/5n1k/ne-zaman/">Ne Zaman?</a></li>
+	<li id="menu-item-803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/5n1k/kim/">Kim?</a></li>
+</ul>
+<a class="dt-menu-expand">+</a></li>
+<li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/programlar/">KindyROO<span class="line-break"></span>Programları</a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/programlar/dogum-oncesi-bebek/">Doğum Öncesi Bebek</a></li>
+	<li id="menu-item-824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/programlar/babyroo/">BabyROO</a></li>
+	<li id="menu-item-826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/programlar/kindyroo/">KindyROO</a></li>
+	<li id="menu-item-823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/programlar/anaokuluna-destek-ve-ilkokula-hazirlik/">Anaokuluna Destek ve İlkokula Hazırlık</a></li>
+</ul>
+<a class="dt-menu-expand">+</a></li>
+<li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/subeler/">KindyROO<span class="line-break"></span>Şubeleri</a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/adana-guzelyali/">Adana &#8211; Güzelyalı</a></li>
+	<li id="menu-item-882" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/ankara-cayyolu/">Ankara &#8211; Çayyolu</a></li>
+	<li id="menu-item-883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/antalya-lara/">Antalya &#8211; Lara</a></li>
+	<li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/bursa-nilufer/">Bursa &#8211; Nilüfer</a></li>
+	<li id="menu-item-735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/istanbul-atasehir/">İstanbul &#8211; Ataşehir</a></li>
+	<li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/istanbul-bahcesehir/">İstanbul &#8211; Bahçeşehir</a></li>
+	<li id="menu-item-886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/istanbul-florya/">İstanbul &#8211; Florya</a></li>
+	<li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://kindyroo.net/subeler/kibris-lefkosa/">Kıbrıs &#8211; Lefkoşa</a></li>
+</ul>
+<a class="dt-menu-expand">+</a></li>
+<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/kindyroolular-anlatiyor/">KindyROO&#8217;lular<span class="line-break"></span>Anlatıyor</a></li>
+<li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/basin/">Basında<span class="line-break"></span>KindyROO</a></li>
+<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/dunya/">Dünyada<span class="line-break"></span>KindyROO</a></li>
+<li id="menu-item-969" class="blog menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/ebeveyn-akademisi/">Ebeveyn<span class="line-break"></span>Akademisi</a></li>
+<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/franchise/">Franchise<span class="line-break"></span>Bilgileri</a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/kariyer/">KindyROO&#8217;da<span class="line-break"></span>Kariyer</a></li>
+<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="https://kindyroo.net/iletisim/">İletişim</a></li>
+</ul>            </nav><!-- ** Navigation Ends ** -->
+            <ul class='dt-sc-social-icons'><li><a class='dt-sc-tooltip-top facebook' href='https://www.facebook.com/KindyROOTurkiye' title='Facebook' target='_blank'><span class='fa fa-facebook'></span>	</a></li><li><a class='dt-sc-tooltip-top instagram' href='https://www.instagram.com/kindyrooturkiye/' title='Instagram' target='_blank'><span class='fa fa-instagram'></span>	</a></li><li><a class='dt-sc-tooltip-top youtube' href='https://www.youtube.com/user/kindyrootr' title='Youtube' target='_blank'><span class='fa fa-youtube'></span>	</a></li><li><a class='dt-sc-tooltip-top linkedin' href='https://www.linkedin.com/company/kindyroo_t%C3%BCrkiye' title='Linkedin' target='_blank'><span class='fa fa-linkedin'></span>	</a></li></ul>        </div>
+	</div>
+    <!--menu-container ends-->
+</header><!-- **Header - End** -->	<!-- header ends -->
+
+	<!-- main starts -->
+	<div id="main"><!-- **Slider Section** --><div id="slider">	<div id="slider-container"> <script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script><script data-cfasync="false" type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_1_1','jquery'); } else { lsjQuery("#layerslider_1_1").layerSlider({autoPlayVideos: false, skinsPath: 'https://kindyroo.net/wp-content/plugins/LayerSlider/static/skins/'}) } }); </script><div id="layerslider_1_1" class="ls-wp-container" style="width:1920px;height:610px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls=" transition2d: all;"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/bg1.jpg" class="ls-bg" alt="Slide background" /><h3 class="ls-l" style="top:75px;left:350px;font-weight: bold;font-family:'Open Sans', sans-serif;color:rgb(131,29,129);white-space: nowrap;" data-ls="parallaxlevel:1;">Beyin kurulumunun %80’i<br>1 yaşa, %90’ı 4 yaşa kadar<br>gerçekleşir.</h3><h3 class="ls-l" style="top:75px;left:1170px;font-weight: bold;font-family:'Open Sans', sans-serif;color:rgb(195,73,103);white-space: nowrap;" data-ls="parallaxlevel:1;">0-6 yaş döneminde çocuğa<br>en iyi temeli vermek gerekir.</h3><h3 class="ls-l" style="top:175px;left:1170px;font-weight: bold;font-family:'Open Sans', sans-serif;color:rgb(0,112,192);white-space: nowrap;" data-ls="parallaxlevel:1;">Bu temeli en bilimsel, sağlıklı ve<br> kanıtlanmış başarılarla sağlayan <br><em>TEK</em> sistem KindyROO’dur.</h3></div><div class="ls-slide" data-ls=" transition2d: all;"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/bg2.jpg" class="ls-bg" alt="Slide background" /><img class="ls-l" style="top:323px;left:887px;opacity: 0.2;white-space: nowrap;" data-ls="parallaxlevel:-4;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/puzzle-single.png" alt=""><img class="ls-l" style="top:41px;left:1466px;opacity: 0.4;width:120px;white-space: nowrap;" data-ls="parallaxlevel:4;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/puzzle-single.png" alt=""><img class="ls-l" style="top:208px;left:1560px;opacity: 0.3;width:100px;white-space: nowrap;" data-ls="parallaxlevel:-3;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/puzzle-single.png" alt=""><img class="ls-l" style="top:35px;left:1094px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/school-kid.png" alt=""><img class="ls-l" style="top:82px;left:178px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;delayin:1500;offsetxout:0;offsetyout:-100;parallaxlevel:2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/kangaroo.png" alt=""><img class="ls-l" style="top:48px;left:848px;white-space: nowrap;" data-ls="delayin:1000;parallaxlevel:-1;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/bubble.png" alt=""><h1 class="ls-l" style="top:120px;left:880px;text-align: center;font-family:Segoe Print, sans-serif;line-height:1.2em;color:#fff;white-space: nowrap;" data-ls="delayin:1000;parallaxlevel:-1;">KindyROO’nun<br>FAYDALARI</h1><h3 class="ls-l" style="top:80px;left:477px;font-family:Segoe Print, sans-serif;color:#fff;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1000;offsetxout:80;">Dil gelişimini hızlandırır.</h3><h3 class="ls-l" style="top:110px;left:477px;font-family:Segoe Print, sans-serif;color:#fff200;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1100;offsetxout:80;">Odaklanma süresini uzatır.</h3><h3 class="ls-l" style="top:140px;left:477px;font-family:Segoe Print, sans-serif;color:#fff;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1200;offsetxout:80;">Sosyal ilişkilerini geliştirir.</h3><h3 class="ls-l" style="top:170px;left:477px;font-family:Segoe Print, sans-serif;color:#fff200;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1300;offsetxout:80;">Çocukları okula hazırlar.</h3><h3 class="ls-l" style="top:200px;left:477px;font-family:Segoe Print, sans-serif;color:#fff;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1400;offsetxout:80;">Vestibüler sistemi geliştirir.</h3><h3 class="ls-l" style="top:230px;left:477px;font-family:Segoe Print, sans-serif;color:#fff200;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1500;offsetxout:80;">Kas tonlamasını etkinleştirir.</h3><h3 class="ls-l" style="top:260px;left:477px;font-family:Segoe Print, sans-serif;color:#fff;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1600;offsetxout:80;">Denge&amp;koordinasyonu mükemmelleştirir.</h3><h3 class="ls-l" style="top:290px;left:477px;font-family:Segoe Print, sans-serif;color:#fff200;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1700;offsetxout:80;">Problem çözme becerilerini artırır.</h3><h3 class="ls-l" style="top:320px;left:477px;font-family:Segoe Print, sans-serif;color:#fff;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1800;offsetxout:80;">Göz ve vücut kaslarını güçlendirir.</h3><h3 class="ls-l" style="top:360px;left:477px;font-family:Segoe Print, sans-serif;line-height:1em;color:#fff200;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1900;offsetxout:80;">Birincil reflekslerin aktivasyonunu ve<br>inhibisyonunu sağlar.</h3><h3 class="ls-l" style="top:415px;left:477px;font-family:Segoe Print, sans-serif;line-height:1em;color:#fff;white-space: nowrap;" data-ls="offsetxin:-80;delayin:2000;offsetxout:80;">Beyin hücreleri arasındaki bağ sayısını artırır,<br>zekayı geliştirir.</h3><h3 class="ls-l" style="top:470px;left:477px;font-family:Segoe Print, sans-serif;line-height:1em;color:#fff200;white-space: nowrap;" data-ls="offsetxin:-80;delayin:2100;offsetxout:80;">Gelişimini fark etmeye başlayan çocuğun<br>özgüveni artar.</h3></div><div class="ls-slide" data-ls=" transition2d: all;"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/bg3.jpg" class="ls-bg" alt="Slide background" /><img class="ls-l" style="top:50px;left:283px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture1.png" alt=""><img class="ls-l" style="top:224px;left:230px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:-2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture2.png" alt=""><img class="ls-l" style="top:38px;left:553px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:-2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture3.png" alt=""><img class="ls-l" style="top:226px;left:512px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture4.png" alt=""><img class="ls-l" style="top:257px;left:775px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:-2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture6.png" alt=""><img class="ls-l" style="top:45px;left:827px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:-2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture7.png" alt=""><img class="ls-l" style="top:252px;left:1096px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture8.png" alt=""><img class="ls-l" style="top:91px;left:1159px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture9.png" alt=""><img class="ls-l" style="top:239px;left:1284px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:-2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture10.png" alt=""><img class="ls-l" style="top:103px;left:1331px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:-2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture11.png" alt=""><img class="ls-l" style="top:218px;left:1509px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;parallaxlevel:2;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/logo/Picture12.png" alt=""><img class="ls-l" style="top:400px;left:520px;width:820px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;scalexin:0;transformoriginin:0 50% 0;offsetxout:120;" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/slide/yellow-paint.png" alt=""><p class="ls-l" style="top:430px;left:635px;text-align: center;font-size:22px;line-height:24px;color:#9D3D96;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1000;scalexin:0;transformoriginin:0 50% 0;offsetxout:80;">KindyROO, üniversiteler dahil olmak üzere ciddi kuruluşların<br> araştırmalarına konu olmuş ve kanıtlanan başarılı sonuçları<br> dolayısıyla birçok resmi destekçi kazanmış olan<br> TEK erken çocukluk dönemi gelişim programıdır.</p></div><div class="ls-slide" data-ls=" transition2d: all;"><img src="http://img.youtube.com/vi/9ib-YAcrtzc/maxresdefault.jpg" class="ls-tn" alt="Slide thumbnail" /><div class="ls-l" style="top:0px;left:0px;width:100%;height:100%;background:#f7f9fc;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-80;offsetxout:0;offsetyout:80;"></div><h2 class="ls-l" style="top:7px;left:820px;color:#fbfbfb;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-80;offsetxout:0;offsetyout:80;">KindyROO Tanıtım Videosu</h2><div class="ls-l" style="top:50px;left:498px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;offsetxout:0;offsetyout:-80;"><iframe width="924" height="520" src="https://www.youtube.com/embed/9ib-YAcrtzc?rel=0" frameborder="0" allowfullscreen></iframe> </div></div></div></div></div><!-- **Slider Section - End** -->
+	<!-- ** Primary Section ** -->
+	<section id="primary" class="content-full-width"><!-- #post-2 -->
+<div id="post-2" class="post-2 page type-page status-publish hentry"><div  class='fullwidth-section kindyroo-programlari'  style="padding-top:40px;padding-bottom:40px;">	<div class="container"><h1 class='dt-sc-title  '><a href="http://kindyroo.net/programlar/">KindyROO Programları <i class="fa fa-hand-pointer-o"></i></a></h1>
+<div  class='column dt-sc-one-fourth program program-yakinda  first'  ><div class='dt-sc-ico-content type1'><div class='icon'>	<div class="icon-outer">		<img title='' alt='' src='http://kindyroo.net/wp-content/themes/kidslife-child/images/main/program-01.jpg'>		<div class="dt-sc-icon-overlay">			<a href='http://kindyroo.net/programlar/dogum-oncesi-bebek/'><i class='fa fa-link'></i></a>		</div>	</div></div><h4><a href='http://kindyroo.net/programlar/dogum-oncesi-bebek/' target='_blank'> Doğum Öncesi Bebek </a></h4><p>İşitsel, dokunsal ve vestibüler uyaranlar, daha anne karnındayken bebeği geliştirmeye başlar. <strong>KindyROO</strong> anne adaylarına bebeklerini doğmadan geliştirmeye başlayacakları müzikli, danslı, eğlenceli bir program sunuyor.</p></div></div>
+<div  class='column dt-sc-one-fourth   '  ><div class='dt-sc-ico-content type1'><div class='icon'>	<div class="icon-outer">		<img title='' alt='' src='http://kindyroo.net/wp-content/themes/kidslife-child/images/main/program-02.jpg'>		<div class="dt-sc-icon-overlay">			<a href='http://kindyroo.net/programlar/babyroo/'><i class='fa fa-link'></i></a>		</div>	</div></div><h4><a href='http://kindyroo.net/programlar/babyroo/' target='_blank'> BabyROO </a></h4><p>Bebeğinizin 6 haftalıktan 1 yaşa kadar olan dönemini kapsar. <strong>BabyROO</strong>, ilk yıllarda kritik öneme sahip olan refleksler, beslenme, görsel, işitsel ve motor gelişim gibi konularda destek verip ebeveynlere yardımcı olur.</p></div></div>
+<div  class='column dt-sc-one-fourth   '  ><div class='dt-sc-ico-content type1'><div class='icon'>	<div class="icon-outer">		<img title='' alt='' src='http://kindyroo.net/wp-content/themes/kidslife-child/images/main/program-03.jpg'>		<div class="dt-sc-icon-overlay">			<a href='http://kindyroo.net/programlar/kindyroo/'><i class='fa fa-link'></i></a>		</div>	</div></div><h4><a href='http://kindyroo.net/programlar/kindyroo/' target='_blank'> KindyROO </a></h4><p>1-5 yaş arası dönemi kapsar. Çocuğunuzun fiziksel, nörolojik, zihinsel, sosyal gelişiminin en hızlı olduğu ve sonraki hayatı için temellerin atıldığı bu dönemde <strong>KindyROO</strong>, çocuğunuzun sistematik ve eksiksiz gelişimini destekler.</p></div></div>
+<div  class='column dt-sc-one-fourth program program-yeni  '  ><div class='dt-sc-ico-content type1'><div class='icon'>	<div class="icon-outer">		<img title='' alt='' src='http://kindyroo.net/wp-content/themes/kidslife-child/images/main/program-04.jpg'>		<div class="dt-sc-icon-overlay">			<a href='http://kindyroo.net/programlar/anaokuluna-destek-ve-ilkokula-hazirlik/'><i class='fa fa-link'></i></a>		</div>	</div></div><h4><a href='http://kindyroo.net/programlar/anaokuluna-destek-ve-ilkokula-hazirlik/' target='_blank'> Anaokuluna Destek ve
+İlkokula Hazırlık </a></h4><p>3-5 yaş anaokuluna destek, 5-6 yaş ilkokula hazırlık programıdır. Birçok gelişmiş ülkede 5 yaş çocuklarının %30&#8217;una yakını gelişimsel risk altında bulunuyor. <strong>KindyROO</strong>, okul çağına gelene kadar çocuğunuzun gereken tüm becerileri kazanmasını sağlar.</p></div></div>	</div></div>
+<div  class='fullwidth-section skin-color kindyroo-nedir dt-sc-parallax-section '  style="background-image:url(http://kindyroo.net/wp-content/themes/kidslife-child/images/puzzle-bg.png);background-repeat:repeat;background-position:center center;padding-top:40px;padding-bottom:40px;background-attachment:fixed; ">	<div class="container"><h1 class='dt-sc-title white '>KindyROO Hakkında</h1>
+<div  class='column dt-sc-one-fourth kangaroo-list  first'  ><div class="media">
+<div class="media-left"><img class="media-object" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png" alt="" width="39" height="64" /></div>
+<div class="media-body">
+<p><strong>KindyROO</strong>, 0-6 yaş uluslararası erken çocukluk dönemi gelişim akademisidir.</p>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fourth kangaroo-list  '  ><div class="media">
+<div class="media-left"><img class="media-object" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png" alt="" width="39" height="64" /></div>
+<div class="media-body">
+<p>6 haftalıktan itibaren çocuğunuzun fiziksel, bilişsel, sosyal, duygusal gelişimini bilinçli ve sistematik bir şekilde desteklemenizi sağlar.</p>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fourth kangaroo-list  '  ><div class="media">
+<div class="media-left"><img class="media-object" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png" alt="" width="39" height="64" /></div>
+<div class="media-body">
+<p>Avustralya menşeili olup 30 yılı aşkın süredir dünyanın onlarca ülkesinde, 2005 yılından beri de Türkiye&#8217;de faaliyet göstermektedir.</p>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fourth kangaroo-list  '  ><div class="media">
+<div class="media-left"><img class="media-object" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/kangaroo_64px.png" alt="" width="39" height="64" /></div>
+<div class="media-body">
+<p>Üniversiteler dahil olmak üzere ciddi kuruluşların araştırmalarına konu olmuş ve kanıtlanan başarılı sonuçları dolayısıyla onların desteklerini kazanmıştır.</p>
+</div>
+</div></div>
+<div class="dt-sc-clear"></div>
+<div  class='column dt-sc-one-sixth   first'  ><br class="blank" /></div>
+<div  class='column dt-sc-four-sixth   '  ><div class="tv-video"><iframe src="https://www.youtube.com/embed/9ib-YAcrtzc?rel=0" width="1170" height="636" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
+<div  class='column dt-sc-one-sixth   '  ><br class="blank" /></div>
+<div class="text-center">
+<div  class='column dt-sc-one-third tanitim-sunumu  first'  ><h3>Tanıtım Sunumu</h3>
+<p><a href="http://kindyroo.net/tanitim-sunumu/" target="_blank"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/sunum.png" alt="Tanıtım Sunumu" /></a></div>
+<div  class='column dt-sc-one-third tanitim-brosuru  '  ><h3>Tanıtım Broşürü</h3>
+<p><a href="http://kindyroo.net/tanitim-brosuru/" target="_blank"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/brosur.png" alt="Tanıtım Broşürü" /></a></div>
+<div  class='column dt-sc-one-third bilimsel-arastirmalar  '  ><h3>Bilimsel Araştırmalar</h3>
+<p><a href="http://kindyroo.net/bilimsel-arastirmalar/" target="_blank"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/arastirma.png" alt="Bilimsel Araştırmalar" /></a></div>	</div></div>
+</div>
+<div  class='fullwidth-section kisa-kisa-kindyroo'  style="padding-top:40px;padding-bottom:40px;">	<div class="container"><h1 class='dt-sc-title  '><a href="http://kindyroo.net/5n1k/">Kısa Kısa KindyROO <i class="fa fa-hand-pointer-o"></i></a></h1>
+<div class="portfolio-content portfolio-content0">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb">
+<p><img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (1).jpg" alt="" width="1170" height="1010" /></p>
+<div class="image-overlay">
+<h5><a href="http://kindyroo.net/5n1k/ne/">KINDYROO NEDİR?</a></h5>
+<p>KindyROO, 0-6 yaş arası<br class="blank" /> çocukların fiziksel, nörolojik,<br class="blank" /> bilişsel, sosyal ve duygusal<br class="blank" /> becerilerini destekleyen eğlenceli<br class="blank" /> bir gelişim programıdır.</p>
+<h5><a href="http://kindyroo.net/5n1k/ne/">KINDYROO NE DEĞİLDİR?</a></h5>
+<p>KindyROO sadece bir oyun<br class="blank" /> grubu veya spor merkezi<br class="blank" /> değildir. Çok daha<br class="blank" /> fazlasıdır.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-content portfolio-content1">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb">
+<p><img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (2).jpg" alt="" width="1170" height="1010" /></p>
+<div class="image-overlay">
+<h5><a href="http://kindyroo.net/5n1k/nasil/">KINDYROO SİSTEMİ<br class="blank" /> NASIL İŞLİYOR?</a></h5>
+<p>KindyROO, motor ve<br class="blank" /> nörolojik gelişimi düzenli ve<br class="blank" /> sistematik olarak desteklediğinden,<br class="blank" /> çocuğun ailesinden aldığı genetik<br class="blank" /> potansiyeli en üst seviyeye<br class="blank" /> çıkartır. Çocuğun özgüvenli bir<br class="blank" /> birey olarak yetişmesini<br class="blank" /> sağlar ve ilerisi için<br class="blank" /> sağlam bir temel<br class="blank" /> oluşturur.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-content portfolio-content2">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb">
+<p><img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (3).jpg" alt="" width="1170" height="1010" /></p>
+<div class="image-overlay">
+<h5><a href="http://kindyroo.net/5n1k/neden/">NEDEN İHTİYAÇ VAR?</a></h5>
+<p>Beyin gelişiminin %80&#8217;i<br class="blank" /> 1 yaşa kadar tamamlanır ve<br class="blank" /> bu dönemde gereken desteği<br class="blank" /> KindyROO sağlar.</p>
+<h5><a href="http://kindyroo.net/5n1k/neden/">KINDYROO NEDEN FARKLI?</a></h5>
+<p>KindyROO&#8217;yu ayrıştıran en önemli<br class="blank" /> unsur, bilimsel bir temele<br class="blank" /> dayalı olup beynin gelişme<br class="blank" /> sistematiğine göre<br class="blank" /> işlemesidir.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-content portfolio-content3">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb">
+<p><img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (4).jpg" alt="" width="1170" height="1010" /></p>
+<div class="image-overlay">
+<h5><a href="http://kindyroo.net/5n1k/ne-zaman/">KINDYROO&#8217;YA NE<br class="blank" /> ZAMAN BAŞLAMALI?</a></h5>
+<p>Bebeğiniz 6 haftalık iken<br class="blank" /> KindyROO&#8217;ya başlayabilir.<br class="blank" /> 6 yaşına kadar çocuğunuzun<br class="blank" /> her alandaki gelişimini KindyROO<br class="blank" /> ile destekleyebilirsiniz.</p>
+<h5><a href="http://kindyroo.net/5n1k/ne-zaman/">NE ZAMAN GİDECEĞİZ?</a></h5>
+<p>KindyROO&#8217;ya ebeveyn-çocuk<br class="blank" /> birlikte yaş grubuna uygun<br class="blank" /> saatte haftalık olarak<br class="blank" /> gidiliyor.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-content portfolio-content4">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb"><a href="http://kindyroo.net/5n1k/">
+<img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (5).jpg" alt="" width="1170" height="1010" />
+</a></div>
+</div>
+</div>
+</div>
+<div class="portfolio-content portfolio-content5">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb">
+<p><img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (6).jpg" alt="" width="1170" height="1010" /></p>
+<div class="image-overlay">
+<h5><a href="http://kindyroo.net/5n1k/nerede/">KINDYROO SİSTEMİ<br class="blank" /> NEREDE DOĞDU?</a></h5>
+<p>KindyROO, Avustralya<br class="blank" /> menşeili bir programdır.</p>
+<h5><a href="http://kindyroo.net/5n1k/nerede/">KINDYROO PROGRAMI<br class="blank" /> NEREDE VERİLİYOR?</a></h5>
+<p>Program, KindyROO&#8217;ya özel<br class="blank" /> merkezlerde veriliyor. Ebeveyn<br class="blank" /> haftalık olarak öğrendiklerini<br class="blank" /> evde tekrarlıyor.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-content portfolio-content6">
+<div class="front-portfolio">
+<div class="portfolio-outer">
+<div class="portfolio-thumb">
+<p><img title="" src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/5n1k (7).jpg" alt="" width="1170" height="1010" /></p>
+<div class="image-overlay">
+<h5><a href="http://kindyroo.net/5n1k/kim/">KINDYROO&#8217;YU<br class="blank" /> KİMLER DESTEKLİYOR?</a></h5>
+<p>KindyROO bilimsel<br class="blank" /> araştırmalara konu olmuş bir<br class="blank" /> programdır. Dünyanın ileri gelen<br class="blank" /> üniversiteleri ve resmi kuruluşları<br class="blank" /> birçok araştırma yapmış ve<br class="blank" /> faydası kanıtlandığı için de<br class="blank" /> KindyROO&#8217;nun destekçisi<br class="blank" /> olmuşlardır.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dt-sc-clear"></div>	</div></div>
+<div  class='fullwidth-section dark-bg dt-sc-parallax-section '  style="background-color:#000000;background-image:url(http://kindyroo.net/wp-content/themes/kidslife-child/images/fullwidth-blog-bg.jpg);background-repeat:no-repeat;background-position:left top;padding-top:40px;padding-bottom:40px;background-attachment:fixed; ">	<div class="container"><h1 class='dt-sc-title white '><a href="http://kindyroo.net/ebeveyn-akademisi/">Blog: Ebeveyn Akademisi <i class="fa fa-hand-pointer-o"></i></a></h1>
+<div class='column dt-sc-one-half first'><article class='blog-entry post-1237 post type-post status-publish format-standard has-post-thumbnail hentry category-genel tag-bebek-gelisimi tag-beyin tag-cocuk-gelisimi tag-gelisim tag-hareket tag-kindyroo tag-motor-planlama'>	<div class="blog-entry-inner">		<div class="entry-meta">			<a class="blog-author" href="https://kindyroo.net/ebeveyn-akademisi/author/kindyroo/"><img src="https://kindyroo.net/wp-content/uploads/2016/02/kindyroo-avatar-150x150.jpg" width="96" height="96" alt="KindyROO Türkiye" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /></a>			<div class="date ribbon-left">				<span>17</span>				<p>Şub<br>2016</p>				<span class="meta-arrow"></span>			</div>			<a href='https://kindyroo.net/ebeveyn-akademisi/2016/02/17/tuvalet-egitimi//#respond' class='comments ribbon-left'>0 <span class='fa fa-comments'></span><span class='meta-arrow'></span></a>			<a href='https://kindyroo.net/ebeveyn-akademisi/2016/02/17/tuvalet-egitimi/' class='entry_format ribbon-left'><span></span> <span class='meta-arrow'></span></a>		</div><div class="entry-thumb"><a href='https://kindyroo.net/ebeveyn-akademisi/2016/02/17/tuvalet-egitimi/'><img width="1280" height="720" src="https://kindyroo.net/wp-content/uploads/2016/02/Tuvalet-Eğitimi-Öne-Çıkan-1.jpg" class="attachment-full size-full wp-post-image" alt="Tuvalet-Eğitimi-Öne-Çıkan-1" srcset="http://kindyroo.net/wp-content/uploads/2016/02/Tuvalet-Eğitimi-Öne-Çıkan-1-300x169.jpg 300w, http://kindyroo.net/wp-content/uploads/2016/02/Tuvalet-Eğitimi-Öne-Çıkan-1-768x432.jpg 768w, http://kindyroo.net/wp-content/uploads/2016/02/Tuvalet-Eğitimi-Öne-Çıkan-1-1024x576.jpg 1024w, http://kindyroo.net/wp-content/uploads/2016/02/Tuvalet-Eğitimi-Öne-Çıkan-1.jpg 1280w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div>		<div class='entry-details '>			<div class='entry-title'><h3><a href='https://kindyroo.net/ebeveyn-akademisi/2016/02/17/tuvalet-egitimi/'>Tuvalet Eğitimi – Ne Zaman, Neden, Nasıl</a></h3></div>			<div class="entry-metadata"><p class='category'> <span class='fa fa-folder-open'> </span> <a href="https://kindyroo.net/kategori/genel/" title="View all posts in Genel">Genel</a></p><p class='tags'> <span class='fa fa-tags'> </span> <a href="https://kindyroo.net/etiket/bebek-gelisimi/"> bebek gelişimi</a>,<a href="https://kindyroo.net/etiket/beyin/"> beyin</a>,<a href="https://kindyroo.net/etiket/cocuk-gelisimi/"> çocuk gelişimi</a>,<a href="https://kindyroo.net/etiket/gelisim/"> gelişim</a>,<a href="https://kindyroo.net/etiket/hareket/"> hareket</a>,<a href="https://kindyroo.net/etiket/kindyroo/"> kindyroo</a>,<a href="https://kindyroo.net/etiket/motor-planlama/"> motor planlama</a></p>			</div>			<div class="entry-body"><p>“Anneee, kakam geldi!” Birçok anne-baba bu sözleri duyduğunda çok mutlu olur. Bazı çocuklar ve ebeveynler için tuvalet eğitimi çok zahmetsiz geçerken, bazıları ise birtakım zorluklar yaşarlar. Çocuk tuvalet eğitimine hazır ise, tüm azim ve sabrı toparlayın, çünkü birkaç ay bunun üzerinde çalışmaya hazır olmanız gerek! Aşağıda anlatacaklarımız size bu konuda...</p>			</div>	 		<a href='https://kindyroo.net/ebeveyn-akademisi/2016/02/17/tuvalet-egitimi/' class='dt-sc-button small'>Devamını Oku <span class='fa fa-chevron-circle-right'> </span> </a>		</div>	</div></article></div><div class='column dt-sc-one-half'><article class='blog-entry post-1077 post type-post status-publish format-standard has-post-thumbnail hentry category-genel tag-bebek-gelisimi tag-beslenme tag-beyin tag-cocuk-gelisimi tag-dogru-beslenme tag-gelisim tag-gelisim-sorunlari tag-gizli-alerjenler tag-gida-alerjisi tag-gida-hassasiyeti tag-hareket tag-kindyroo tag-motor-planlama'>	<div class="blog-entry-inner">		<div class="entry-meta">			<a class="blog-author" href="https://kindyroo.net/ebeveyn-akademisi/author/kindyroo/"><img src="https://kindyroo.net/wp-content/uploads/2016/02/kindyroo-avatar-150x150.jpg" width="96" height="96" alt="KindyROO Türkiye" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /></a>			<div class="date ribbon-left">				<span>27</span>				<p>Oca<br>2016</p>				<span class="meta-arrow"></span>			</div>			<a href='https://kindyroo.net/ebeveyn-akademisi/2016/01/27/beslenme//#respond' class='comments ribbon-left'>0 <span class='fa fa-comments'></span><span class='meta-arrow'></span></a>			<a href='https://kindyroo.net/ebeveyn-akademisi/2016/01/27/beslenme/' class='entry_format ribbon-left'><span></span> <span class='meta-arrow'></span></a>		</div><div class="entry-thumb"><a href='https://kindyroo.net/ebeveyn-akademisi/2016/01/27/beslenme/'><img width="1280" height="720" src="https://kindyroo.net/wp-content/uploads/2016/01/Beslenme-2.jpg" class="attachment-full size-full wp-post-image" alt="Beslenme" srcset="http://kindyroo.net/wp-content/uploads/2016/01/Beslenme-2-300x169.jpg 300w, http://kindyroo.net/wp-content/uploads/2016/01/Beslenme-2-768x432.jpg 768w, http://kindyroo.net/wp-content/uploads/2016/01/Beslenme-2-1024x576.jpg 1024w, http://kindyroo.net/wp-content/uploads/2016/01/Beslenme-2.jpg 1280w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div>		<div class='entry-details '>			<div class='entry-title'><h3><a href='https://kindyroo.net/ebeveyn-akademisi/2016/01/27/beslenme/'>Beslenme Beyin Gelişimini Nasıl Etkiler?</a></h3></div>			<div class="entry-metadata"><p class='category'> <span class='fa fa-folder-open'> </span> <a href="https://kindyroo.net/kategori/genel/" title="View all posts in Genel">Genel</a></p><p class='tags'> <span class='fa fa-tags'> </span> <a href="https://kindyroo.net/etiket/bebek-gelisimi/"> bebek gelişimi</a>,<a href="https://kindyroo.net/etiket/beslenme/"> beslenme</a>,<a href="https://kindyroo.net/etiket/beyin/"> beyin</a>,<a href="https://kindyroo.net/etiket/cocuk-gelisimi/"> çocuk gelişimi</a>,<a href="https://kindyroo.net/etiket/dogru-beslenme/"> doğru beslenme</a>,<a href="https://kindyroo.net/etiket/gelisim/"> gelişim</a>,<a href="https://kindyroo.net/etiket/gelisim-sorunlari/"> gelişim sorunları</a>,<a href="https://kindyroo.net/etiket/gizli-alerjenler/"> gizli alerjenler</a>,<a href="https://kindyroo.net/etiket/gida-alerjisi/"> gıda alerjisi</a>,<a href="https://kindyroo.net/etiket/gida-hassasiyeti/"> gıda hassasiyeti</a>,<a href="https://kindyroo.net/etiket/hareket/"> hareket</a>,<a href="https://kindyroo.net/etiket/kindyroo/"> kindyroo</a>,<a href="https://kindyroo.net/etiket/motor-planlama/"> motor planlama</a></p>			</div>			<div class="entry-body"><p>Erken çocukluk dönemi gelişimindeki en önemli faktörlerden biri, ideal beslenme ve gıda hassasiyet ve alerjilerinin tedavisidir. Beslenmenin gelişim üzerindeki etkisi, çocuk doğduğunda değil çok daha öncesinde, annenin hatta anneannenin beslenmesi ile başlar. Yine de bebekler ve çocukların beslenmesinin sağlıklı gelişimi desteklemesi için yapılabilecek birçok şey vardır.</p>			</div>	 		<a href='https://kindyroo.net/ebeveyn-akademisi/2016/01/27/beslenme/' class='dt-sc-button small'>Devamını Oku <span class='fa fa-chevron-circle-right'> </span> </a>		</div>	</div></article></div>	</div></div>
+<div  class='fullwidth-section '  style="padding-top:40px;padding-bottom:40px;">	<div class="container"><h1 class='dt-sc-title  '><a href="http://kindyroo.net/kim-kimdir/">KindyROO&#8217;da Kim Kimdir? <i class="fa fa-hand-pointer-o"></i></a></h1>
+<div  class='column dt-sc-one-fifth   first'  ><div class="dt-sc-team">
+<div class="image"><img class="item-mask" src="http://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/images/mask.png" alt="" />
+<a href="http://kindyroo.net/kim-kimdir/margaret-sasse"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-margaret.jpg" alt="" /></a></div>
+<div class="team-details">
+<h4><a href="http://kindyroo.net/kim-kimdir/margaret-sasse">Margaret Sassé</a></h4>
+<h6>KindyROO Kurucusu<br class="blank" />1929-2009</h6>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fifth   '  ><div class="dt-sc-team">
+<div class="image"><img class="item-mask" src="http://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/images/mask.png" alt="" />
+<a href="http://kindyroo.net/kim-kimdir/jane-williams"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-jane.jpg" alt="" /></a></div>
+<div class="team-details">
+<h4><a href="http://kindyroo.net/kim-kimdir/jane-williams">Dr. Jane Williams</a></h4>
+<h6>KindyROO Global<br class="blank" />Genel Müdürü</h6>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fifth   '  ><div class="dt-sc-team">
+<div class="image"><img class="item-mask" src="http://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/images/mask.png" alt="" />
+<a href="http://kindyroo.net/kim-kimdir/ogan-ibrisim"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-ogan.jpg" alt="" /></a></div>
+<div class="team-details">
+<h4><a href="http://kindyroo.net/kim-kimdir/ogan-ibrisim">Ogan İbrişim</a></h4>
+<h6>KindyROO Türkiye<br class="blank" />Kurucusu &#8211; Genel Müdürü</h6>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fifth   '  ><div class="dt-sc-team">
+<div class="image"><img class="item-mask" src="http://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/images/mask.png" alt="" />
+<a href="http://kindyroo.net/kim-kimdir/zeynep-ibrisim"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-zeynep.jpg" alt="" /></a></div>
+<div class="team-details">
+<h4><a href="http://kindyroo.net/kim-kimdir/zeynep-ibrisim">Zeynep İbrişim</a></h4>
+<h6>KindyROO Türkiye<br class="blank" />Marka Direktörü</h6>
+</div>
+</div></div>
+<div  class='column dt-sc-one-fifth   '  ><div class="dt-sc-team">
+<div class="image"><img class="item-mask" src="http://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/images/mask.png" alt="" />
+<a href="http://kindyroo.net/subeler/"><img src="http://kindyroo.net/wp-content/themes/kidslife-child/images/main/team-sube.jpg" alt="" /></a></div>
+<div class="team-details">
+<h4><a href="http://kindyroo.net/subeler/">Şubelerimiz</a></h4>
+<h6>Şube sahipleri<br class="blank" />ve işletmecileri</h6>
+</div>
+</div></div>	</div></div>
+<p><!-- [dt_sc_fullwidth_section backgroundcolor="#d2d2d2" backgroundimage="http://kindyroo.net/wp-content/themes/kidslife-child/images/product_bg.png" opacity="" parallax="yes" backgroundrepeat="repeat" backgroundposition="left top" paddingtop="40" paddingbottom="40" margintop="" marginbottom="" textcolor="" class="light-bg" first] [dt_sc_h1 type="type2" class=""]KindyROO'yu Dr. Jane Williams'tan Dinleyin[/dt_sc_h1] (Buraya videolar gelecek.) [/dt_sc_fullwidth_section] --></p>
+<div class="container"><div class="social-bookmark"></div><div class="social-share"></div></div></div><!-- #post-2 -->
+
+	</section><!-- ** Primary Section End ** -->
+        		
+		</div>
+		<!-- main ends -->
+
+    	<!--footer starts-->
+        <footer>        		<div class="footer-widgets-wrapper">
+        			<div class="container"><div class='column dt-sc-one-fourth first'><aside id="text-2" class="widget widget_text"><h3 class="red_sketch widgettitle">KindyROO Hakkında</h3>			<div class="textwidget"><ul>
+<li><a href="http://kindyroo.net/5n1k/">5N1K ile KindyROO</a></li>
+<li><a href="http://kindyroo.net/programlar/">KindyROO Programları</a></li>
+<li><a href="http://kindyroo.net/kindyroonun-faydalari/">KindyROO'nun Faydaları</a></li>
+<li><a href="https://www.youtube.com/watch?v=9ib-YAcrtzc" target="_blank">KindyROO Tanıtım Videosu</a></li>
+<li><a href="http://kindyroo.net/tanitim-sunumu/">KindyROO Tanıtım Sunumu</a></li>
+<li><a href="http://kindyroo.net/tanitim-brosuru/">KindyROO Tanıtım Broşürü</a></li>
+<li><a href="http://kindyroo.net/kindyroolular-anlatiyor/">KindyROO'lular Anlatıyor</a></li>
+</ul></div>
+		</aside></div><div class='column dt-sc-one-fourth '><aside id="text-5" class="widget widget_text"><h3 class="green_sketch widgettitle">KindyROO Şubeleri</h3>			<div class="textwidget"><ul>
+<li><a href="http://kindyroo.net/subeler/adana-guzelyali">Adana – Güzelyalı</a></li>
+<li><a href="http://kindyroo.net/subeler/ankara-cayyolu">Ankara – Çayyolu</a></li>
+<li><a href="http://kindyroo.net/subeler/antalya-lara">Antalya – Lara</a></li>
+<li><a href="http://kindyroo.net/subeler/bursa-nilufer">Bursa – Nilüfer</a></li>
+<li><a href="http://kindyroo.net/subeler/istanbul-atasehir">İstanbul – Ataşehir</a></li>
+<li><a href="http://kindyroo.net/subeler/istanbul-bahcesehir">İstanbul – Bahçeşehir</a></li>
+<li><a href="http://kindyroo.net/subeler/istanbul-florya">İstanbul – Florya</a></li>
+<li><a href="http://kindyroo.net/subeler/kibris-lefkosa">Kıbrıs – Lefkoşa</a></li>
+</ul></div>
+		</aside></div><div class='column dt-sc-one-fourth '><aside id="text-4" class="widget widget_text"><h3 class="yellow_sketch widgettitle">KindyROO&#8217;da Kariyer</h3>			<div class="textwidget"><ul>
+<li><a href="http://kindyroo.net/franchise/">Franchise alarak şube açmak ister misiniz?</a></li>
+<li><a href="http://kindyroo.net/kariyer/">Eğitmen olmak ister misiniz?</a></li>
+</ul></div>
+		</aside></div><div class='column dt-sc-one-fourth '><aside id="text-3" class="widget widget_text"><h3 class="steelblue_sketch widgettitle">İletişim</h3>			<div class="textwidget"><p class="dt-sc-contact-info"><span class="fa fa-map-marker"></span>Caferağa Mah. Sakız Sok. Maksim Apt. No:2/1 D:5 Kadıköy-İstanbul</p>
+<p class="dt-sc-contact-info"><span class="fa fa fa-phone"></span>0216 575 01 57</p>
+<p class="dt-sc-contact-info"><span class="fa fa-envelope"></span><a href="mailto:info@kindyroo.net">info@kindyroo.net</a></p>
+<a href="http://kindyroo.net/deneme/" class="dt-sc-button small yellow">DENEME DERSİ RANDEVUSU<span class="fa fa-chevron-circle-right"></span></a></div>
+		</aside></div>        			</div>
+        		</div>        		<div class="copyright">
+        			<div class="container">
+        				<div class="copyright-info">&copy; 2016 KindyROO Türkiye. Tüm hakları saklıdır.</div>
+        				<div class="footer-links">
+        					<p>Bizi takip edin</p>
+        					<ul class='dt-sc-social-icons'><li class='facebook'><a href='https://www.facebook.com/KindyROOTurkiye' target='_blank' title='Facebook'><img src='https://kindyroo.net/wp-content/themes/kidslife/images/sociable/facebook.png' alt='facebook.png' />	</a></li><li class='instagram'><a href='https://www.instagram.com/kindyrooturkiye/' target='_blank' title='Instagram'><img src='https://kindyroo.net/wp-content/themes/kidslife/images/sociable/instagram.png' alt='instagram.png' />	</a></li><li class='youtube'><a href='https://www.youtube.com/user/kindyrootr' target='_blank' title='Youtube'><img src='https://kindyroo.net/wp-content/themes/kidslife/images/sociable/youtube.png' alt='youtube.png' />	</a></li><li class='linkedin'><a href='https://www.linkedin.com/company/kindyroo_t%C3%BCrkiye' target='_blank' title='Linkedin'><img src='https://kindyroo.net/wp-content/themes/kidslife/images/sociable/linkedin.png' alt='linkedin.png' />	</a></li></ul>        				</div>	
+        			</div>
+        		</div>
+        	        </footer><!--footer ends-->
+	</div><!--inner-wrapper ends-->  
+</div><!-- **Wrapper - End** -->
+
+<a href="" title="" class="back-to-top">To Top</a>
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29367238-1', 'auto');
+  ga('send', 'pageview');</script><script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/inview.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.flexslider.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.tabs.min.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.viewport.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.carouFredSel-6.2.1-packed.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.tipTip.minified.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.donutchart.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.scrollto.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.nav.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.parallax-1.1.3.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/shortcodes/js/shortcodes.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/page-builder/js/jquery.inview.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/designthemes-core-features/page-builder/js/custom-public.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/kindyroo.net\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"G\u00f6nderiliyor ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/easing.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/jquery.smartresize.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/jquery.prettyPhoto.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/jquery.nicescroll.min.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/jquery.isotope.min.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/jquery.fitvids.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/jquery.bxslider.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/toucheffects.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-content/themes/kidslife/framework/js/public/custom.js?ver=4.4.4'></script>
+<script type='text/javascript' src='https://kindyroo.net/wp-includes/js/wp-embed.min.js?ver=4.4.4'></script>
+</body>
+</html>

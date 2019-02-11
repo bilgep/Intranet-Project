@@ -1,0 +1,294 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Saport2.master.cs" Inherits="Saport2.UI.Saport2"  %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link rel="icon" href="resources/img/favicon.ico"/>
+
+    <meta name="viewport" content="width=device-width"/>
+    <meta charset="utf-8" />
+
+    <script src="resources/scripts/saport2main.js"></script>
+    <script src="resources/scripts/knockout-3.4.0.js"></script>
+
+    <link href="/resources/styles/icons/css/font-awesome.css" rel="stylesheet" />
+
+    <script src="resources/scripts/jquery-1.12.2.min.js"></script>
+    <link href="resources/styles/components.debug.css" rel="stylesheet" />
+    <link href="resources/styles/gridsa.css" rel="stylesheet" />
+    <%--<link href="resources/styles/main.debug.css" rel="stylesheet" />--%>
+    <link href="resources/styles/style.css" rel="stylesheet" />
+    <link href="resources/styles/style2.css" rel="stylesheet" />
+
+    <!-- Scripts Begin -->
+    <script src="resources/scripts/main.js"></script>
+    <script type="text/javascript">
+
+        
+	    $(document).ready(function(){
+		
+	        $("#nav ul.child").removeClass("child");
+	        $("#nav li").has("ul").hover(function () {
+	            $(this).addClass("current").children("ul").fadeIn();
+	        }, function () {
+	            $(this).removeClass("current").children("ul").hide();
+	        });
+
+	        $('#modalcik').click(function () {
+	            $('.popup').css('display', 'block');
+	        });
+
+	        //$('.kapat').click(function () {
+	        //    $('.popup').css('display', 'none');
+	        //});
+
+	        $(document).keypress(function (e) {
+	            if (e.which == 13) {
+	                var activeElement = document.activeElement;
+	                if (activeElement["id"] == "divSearch") {
+	                    document.getElementById('btnSearch').click();
+	                }
+	            }
+	        });
+
+
+	    });
+
+	    function HidePopupDiv()
+	    {
+            $('.popup').css('display', 'none');
+
+	    }
+
+
+    </script>
+    <!-- Scripts End -->
+    <script language="javascript" type="text/javascript">
+    function clearText(field)
+    {
+        if (field.defaultValue == field.value) field.value = '';
+        else if (field.value == '') field.value = field.defaultValue;
+
+    }
+
+    function SearchClick() {
+        var queryText = $("#divSearch").val();
+        if (queryText == "Arama") queryText = "";
+        var redirectUrl = "Search.aspx" + "?k=" + queryText;
+        window.location.href = redirectUrl;
+    }
+
+</script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"> </asp:ContentPlaceHolder>
+</head>
+
+<body>
+ 
+
+    <div class="container">
+    <div class="grid-d-12 grid-12 grid-tl-12 grid-t-12">
+
+    <!-- Main Menu Begin -->
+    <div class="menu-bg">
+        <div class="menutotal">
+        	<div class="anamenu"><a href="../Home.aspx">
+                <img src="resources/img/spacer.gif" width="55" height="50"/></a>
+        	</div>
+
+        	<div class="menu">
+	    <!-- Primary site Nav -->
+			<ul id="nav">
+				<li>
+					<a href="#">MENÜ </a>
+					<ul class="fadeIn animated">
+                        <asp:Literal ID="ltrMenuItems" runat="server"></asp:Literal>
+					</ul>
+				</li>
+			</ul>
+            </div>
+        </div>
+            <div class="menu-kisayol">
+            	<input type="text" value="Arama" onfocus="clearText(this)" onblur="clearText(this)" class="arama" id="divSearch" runat="server" />
+                <input type="button" class="arama-submit" onclick="SearchClick()" id="btnSearch"/>
+            </div>
+            <div class="bugun"><a href="#" id="modalcik">Bugün</a></div>
+                <div class="profile">
+                <div class="info">
+                    <div class="user-inf"><asp:Literal ID="ltrUserName" runat="server"></asp:Literal></div>
+                    <div align="right"><a href="Login.aspx" style="margin:auto;color:#fff;color:white; padding-top:12px;display:block; margin-right:6px">Çıkış</a></div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+
+        </div>
+    <!-- Main Menu End -->
+
+    <!-- User Info Begin -->
+        </div>
+     <!-- User Info End -->
+
+        <div class="grid-12"><a class="site-logo" href="/Home.aspx"><img src="resources/img/site-logo.png" alt=""/></a></div>
+        <div style="clear:both; height:0px;"></div>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1"  runat="server" UpdateMode="Conditional" >
+
+         <ContentTemplate>
+
+
+
+             <!-- html -->
+                <div class="popup" id="divModalcik" runat="server">
+                    <div class="popup-inner">
+                        <div style="position:relative">
+                        <div class="kapat" onclick="HidePopupDiv();">X</div>
+
+                        <div class="thumbnails">
+            	<ul>
+                    <li>
+
+                    <!-- Weather Status -->
+                    <div id="WeatherStatusControl">
+                    <p class="weather-icon">
+                        <asp:Literal ID="ltrWeatherImage" runat="server"></asp:Literal>
+                    </p>
+                    <table>
+                        <tbody>
+                            <tr>
+                            <td>
+                                <h4>Hava Durumu</h4>
+
+                                <div class="selectCity">
+                                    <asp:DropDownList ID="ddlSelectCity" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlSelectCity_SelectedIndexChanged">
+                                        <asp:ListItem>Adana</asp:ListItem>
+                                            <asp:ListItem>Adapazarı</asp:ListItem>
+                                            <asp:ListItem>Afyon</asp:ListItem>
+                                            <asp:ListItem>Alanya</asp:ListItem>
+                                            <asp:ListItem>Ankara</asp:ListItem>
+                                            <asp:ListItem>Antalya</asp:ListItem>
+                                            <asp:ListItem>Aydın</asp:ListItem>
+                                            <asp:ListItem>Balıkesir</asp:ListItem>
+                                            <asp:ListItem>Bursa</asp:ListItem>
+                                            <asp:ListItem>Çanakkale</asp:ListItem>
+                                            <asp:ListItem>Çorlu</asp:ListItem>
+                                            <asp:ListItem>Denizli</asp:ListItem>
+                                            <asp:ListItem>Eskişehir</asp:ListItem>
+                                            <asp:ListItem>Gaziantep</asp:ListItem>
+                                            <asp:ListItem>İskenderun</asp:ListItem>
+                                            <asp:ListItem>Istanbul</asp:ListItem>
+                                            <asp:ListItem>İzmir</asp:ListItem>
+                                            <asp:ListItem>İzmit</asp:ListItem>
+                                            <asp:ListItem>Kahramanmaraş</asp:ListItem>
+                                            <asp:ListItem>Kayseri</asp:ListItem>
+                                            <asp:ListItem>Kocaeli</asp:ListItem>
+                                            <asp:ListItem>Konya</asp:ListItem>
+                                            <asp:ListItem>Kütahya</asp:ListItem>
+                                            <asp:ListItem>Manisa</asp:ListItem>
+                                            <asp:ListItem>Marmaris</asp:ListItem>
+                                            <asp:ListItem>Mersin</asp:ListItem>
+                                            <asp:ListItem>Niğde</asp:ListItem>
+                                            <asp:ListItem>Samsun</asp:ListItem>
+                                            <asp:ListItem>Tekirdag</asp:ListItem>
+                                            <asp:ListItem>Trabzon</asp:ListItem>
+                                    </asp:DropDownList>
+                                </div>
+
+                                <div>
+                                    <!-- Date -->
+                                    <span>
+                                      <asp:Literal ID="ltrWeatherDate" runat="server"></asp:Literal></span>
+                                    <br/>
+                    
+                                </div>
+                            </td>
+                            <td>
+                                <h1><span>
+                                    <asp:Literal ID="ltrWeatherDegree" runat="server"></asp:Literal></span><sup>0</sup></h1>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    </div>
+                   
+                    </li>
+                    <li>
+                        <div id="ExchangeRatesControl" style="position: relative;">
+                        <h4>Döviz Kurları <img src="resources/img/tb-exchange-icon.png" /></h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <img src="resources/img/tb-exchange-flag1.png"/></th>
+                                    <th>
+                                        <img src="resources/img/tb-exchange-flag2.png"/></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <ul class="unstyled">
+                                            <li><strong>ALIŞ</strong><span><asp:Literal ID="ltrDovizDolarAlis" runat="server"></asp:Literal></span></li>
+                                            <li><strong>SATIŞ</strong><span><asp:Literal ID="ltrDovizDolarSatis" runat="server"></asp:Literal></span></li>
+                                        </ul>
+                                    </td>
+            
+                                    <td>
+                                        <ul class="unstyled">
+                                            <li><strong>ALIŞ</strong><span><asp:Literal ID="ltrDovizEuroAlis" runat="server"></asp:Literal></span></li>
+                                            <li><strong>SATIŞ</strong><span><asp:Literal ID="ltrDovizEuroSatis" runat="server"></asp:Literal></span></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+	                    <div style="position: absolute; bottom: 10px; text-align: center; color: #FFF; left: 0; right: 0; font-size: 10px;">Kaynak: TCMB</div>
+                    </div>
+
+                    </li>
+                </ul>
+            </div>
+                    </div>
+                    </div>
+                </div>
+
+
+        </ContentTemplate>
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="ddlSelectCity" /> 
+        </Triggers>
+        </asp:UpdatePanel>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <div style="clear:both; height:20px;"></div>
+    <div class="grid-12 footer">
+        <div style="float:left; margin-right:20px">
+            <img src="resources/img/sa-logo.png" width="167" height="28"/>
+
+        </div>
+        <div style="float:left; margin-right:20px; line-height:28px" class="copyright pull-left">
+            Copyright © 2016 Sabancı Holding tüm hakları saklıdır.
+        </div>
+   	    
+    </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

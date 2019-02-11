@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?79668181');
+  src: url('../font/fontello.eot?79668181#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?79668181') format('woff'),
+       url('../font/fontello.ttf?79668181') format('truetype'),
+       url('../font/fontello.svg?79668181#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?79668181#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-plus:before { content: '\e816'; } /* '' */
+.icon-up-dir:before { content: '\e821'; } /* '' */
+.icon-right-dir:before { content: '\e823'; } /* '' */
+.icon-down-dir:before { content: '\e820'; } /* '' */
+.icon-left-dir:before { content: '\e822'; } /* '' */
+.icon-th-list:before { content: '\e82d'; } /* '' */
+.icon-mail:before { content: '\e824'; } /* '' */
+.icon-ok:before { content: '\e80b'; } /* '' */
+.icon-cancel-3:before { content: '\e815'; } /* '' */
+.icon-remove:before { content: '\e80a'; } /* '' */
+.icon-cancel-2:before { content: '\e814'; } /* '' */
+.icon-plus-circled:before { content: '\e830'; } /* '' */
+.icon-cw:before { content: '\e80e'; } /* '' */
+.icon-th-list-1:before { content: '\e82e'; } /* '' */
+.icon-cancel:before { content: '\e813'; } /* '' */
+.icon-edit:before { content: '\e829'; } /* '' */
+.icon-comment-alt:before { content: '\e828'; } /* '' */
+.icon-comment:before { content: '\e827'; } /* '' */
+.icon-left-circle:before { content: '\e801'; } /* '' */
+.icon-right-circle:before { content: '\e802'; } /* '' */
+.icon-up-circle:before { content: '\e803'; } /* '' */
+.icon-down-circle:before { content: '\e800'; } /* '' */
+.icon-tags:before { content: '\e82c'; } /* '' */
+.icon-arrow-combo:before { content: '\e809'; } /* '' */
+.icon-down-open:before { content: '\e805'; } /* '' */
+.icon-left-open:before { content: '\e806'; } /* '' */
+.icon-right-open:before { content: '\e807'; } /* '' */
+.icon-up-open:before { content: '\e808'; } /* '' */
+.icon-spin5:before { content: '\e825'; } /* '' */
+.icon-videocam:before { content: '\e81f'; } /* '' */
+.icon-sort:before { content: '\e80c'; } /* '' */
+.icon-doc-text:before { content: '\e812'; } /* '' */
+.icon-angle-double-left:before { content: '\e818'; } /* '' */
+.icon-angle-double-right:before { content: '\e817'; } /* '' */
+.icon-angle-double-up:before { content: '\e819'; } /* '' */
+.icon-angle-double-down:before { content: '\e81a'; } /* '' */
+.icon-attention-alt:before { content: '\e80d'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\e81d'; } /* '' */
+.icon-thumbs-down-alt:before { content: '\e81e'; } /* '' */
+.icon-thumbs-up:before { content: '\e81b'; } /* '' */
+.icon-thumbs-down:before { content: '\e81c'; } /* '' */
+.icon-dollar:before { content: '\e82b'; } /* '' */
+.icon-calendar:before { content: '\e82a'; } /* '' */
+.icon-chart-line:before { content: '\e80f'; } /* '' */
+.icon-book:before { content: '\e810'; } /* '' */
+.icon-camera:before { content: '\e826'; } /* '' */
+.icon-search:before { content: '\e804'; } /* '' */
+.icon-link:before { content: '\e811'; } /* '' */

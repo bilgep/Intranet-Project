@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<ArrayOfWeatherStatus xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WeatherStatus>
+    <City>Adana</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>18</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Adapazarı</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Light rain shower</Status>
+      <StatusImage>353</StatusImage>
+      <Temperature>15</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Afyon</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>12</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Alanya</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>24</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Ankara</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>8</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Antalya</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>22</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Aydın</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>9</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Balıkesir</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>13</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Bursa</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Mist</Status>
+      <StatusImage>143</StatusImage>
+      <Temperature>10</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Çanakkale</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>14</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Çorlu</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>13</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Denizli</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>8</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Eskişehir</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>11</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Gaziantep</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>10</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>İskenderun</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>16</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Istanbul</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>17</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>İzmir</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Light rain</Status>
+      <StatusImage>296</StatusImage>
+      <Temperature>23</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>İzmit</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Light rain shower</Status>
+      <StatusImage>353</StatusImage>
+      <Temperature>15</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Kahramanmaraş</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>13</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Kayseri</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>7</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Kocaeli</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>18</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Konya</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>11</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Kütahya</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>12</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Manisa</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>9</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Marmaris</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>17</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Mersin</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Clear</Status>
+      <StatusImage>113</StatusImage>
+      <Temperature>18</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Niğde</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>7</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Samsun</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>16</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Tekirdag</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Partly cloudy</Status>
+      <StatusImage>116</StatusImage>
+      <Temperature>13</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+  <WeatherStatus>
+    <City>Trabzon</City>
+    <WeatherInfo>
+      <ObservedAt>03:37 AM</ObservedAt>
+      <Status>Light rain</Status>
+      <StatusImage>296</StatusImage>
+      <Temperature>15</Temperature>
+    </WeatherInfo>
+  </WeatherStatus>
+</ArrayOfWeatherStatus>

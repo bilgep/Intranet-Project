@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ArrayOfBanner xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Banner>
+    <_imageUrl>160725_klinik_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>160725_hol545345.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <ID>660</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160725_klinik_700x329.jpg</ImageUrl>
+    <LinkUrl>160725_hol545345.aspx</LinkUrl>
+    <Title>Ağustos Ayı Sabancı Sağlık Günleri</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1319</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1319</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>banner2107166.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>160721_hol.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <ID>659</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//banner2107166.jpg</ImageUrl>
+    <LinkUrl>160721_hol.aspx</LinkUrl>
+    <Title>Sabancı Holding Yönetim Kurulu Başkanı Güler Sabancı’nın Açıklaması</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1318</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1318</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>160715_hol_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>160715_hol31.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <ID>657</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160715_hol_700x329.jpg</ImageUrl>
+    <LinkUrl>160715_hol31.aspx</LinkUrl>
+    <Title>Cerebral Palsy’liler İçin Atacağınız Her Adım Bir Umut</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1303</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1303</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>160711_hol_700x329_2.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>Sabancı-Holding-Yönetim-Kurulu-Başkanı-Güler-Sabancı-“Hıza-ihtiyacımız-var”.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <ID>656</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160711_hol_700x329_2.jpg</ImageUrl>
+    <LinkUrl>Sabancı-Holding-Yönetim-Kurulu-Başkanı-Güler-Sabancı-“Hıza-ihtiyacımız-var”.aspx</LinkUrl>
+    <Title>Sabancı Holding Yönetim Kurulu Başkanı Güler Sabancı Hürriyet Gazetesi’ne Röportaj Verdi</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1302</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1302</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>160628_vak_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>160628_vak213.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <ID>654</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160628_vak_700x329.jpg</ImageUrl>
+    <LinkUrl>160628_vak213.aspx</LinkUrl>
+    <Title>Sabancı Vakfı’nın Topluma İlham Veren Fark Yaratanlar Programı Yedinci Sezonunu Geride Bıraktı</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1301</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1301</RedirectPage>
+  </Banner>
+</ArrayOfBanner>

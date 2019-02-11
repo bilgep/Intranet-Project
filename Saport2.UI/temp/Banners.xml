@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<ArrayOfBanner xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Banner>
+    <_imageUrl>161021_hol_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>Sabancı-Topluluğu-Yönetim-Toplantısı-2016-Gerçekleştirildi.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <_title>Sabancı Topluluğu Yönetim Toplantısı 2016 Gerçekleştirildi</_title>
+    <ID>677</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//161021_hol_700x329.jpg</ImageUrl>
+    <LinkUrlForMobile>Sabancı-Topluluğu-Yönetim-Toplantısı-2016-Gerçekleştirildi.aspx</LinkUrlForMobile>
+    <LinkUrl>Sabancı-Topluluğu-Yönetim-Toplantısı-2016-Gerçekleştirildi.aspx</LinkUrl>
+    <Title>Sabancı Topluluğu Yönetim Toplantısı 2016 Gerçekleştirildi</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1402</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1402</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>161019_hol_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>Sabancı-Holding-Yönetim-Kurulu-Başkanı-Güler-Sabancı-23--Dünya-Enerji-Kongresi’nde-Konuştu.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <_title>Sabancı Holding Yönetim Kurulu Başkanı Güler Sabancı 23. Dünya Enerji Kongresi’nde Konuştu</_title>
+    <ID>676</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//161019_hol_700x329.jpg</ImageUrl>
+    <LinkUrlForMobile>Sabancı-Holding-Yönetim-Kurulu-Başkanı-Güler-Sabancı-23--Dünya-Enerji-Kongresi’nde-Konuştu.aspx</LinkUrlForMobile>
+    <LinkUrl>Sabancı-Holding-Yönetim-Kurulu-Başkanı-Güler-Sabancı-23--Dünya-Enerji-Kongresi’nde-Konuştu.aspx</LinkUrl>
+    <Title>Sabancı Holding Yönetim Kurulu Başkanı Güler Sabancı 23. Dünya Enerji Kongresi’nde Konuştu</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1388</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1388</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>160930_klinik_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>Ekim-Ayı-Sabancı-Sağlık-Günleri-.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <_title>Ekim Ayı Sabancı Sağlık Günleri</_title>
+    <ID>675</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160930_klinik_700x329.jpg</ImageUrl>
+    <LinkUrlForMobile>Ekim-Ayı-Sabancı-Sağlık-Günleri-.aspx</LinkUrlForMobile>
+    <LinkUrl>Ekim-Ayı-Sabancı-Sağlık-Günleri-.aspx</LinkUrl>
+    <Title>Ekim Ayı Sabancı Sağlık Günleri</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1370</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1370</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>160930_sagl_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>https://saport.sabanci.com/tr-tr/koseyazilari/saglik/default.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <_title>Grip Aşısı Dönemi Geliyor</_title>
+    <ID>674</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160930_sagl_700x329.jpg</ImageUrl>
+    <LinkUrlForMobile>https://saport.sabanci.com/tr-tr/koseyazilari/saglik/default.aspx</LinkUrlForMobile>
+    <LinkUrl>https://saport.sabanci.com/tr-tr/koseyazilari/saglik/default.aspx</LinkUrl>
+    <Title>Grip Aşısı Dönemi Geliyor</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>Post</BannerTypeName>
+    <ItemId>0</ItemId>
+    <RedirectPage>../PostDetail.aspx?PostId=9&amp;PostCat=saglik</RedirectPage>
+  </Banner>
+  <Banner>
+    <_imageUrl>160916_sh_700x329.jpg</_imageUrl>
+    <_mobileImageUrl />
+    <_linkUrl>Güler-Sabancı-Yine-Dünyanın-En-Güçlü-Kadınları-Arasında0916-3450.aspx</_linkUrl>
+    <_isExternalLink>false</_isExternalLink>
+    <_title>Güler Sabancı Yine Dünyanın En Güçlü Kadınları Arasında</_title>
+    <ID>673</ID>
+    <ImageUrl>https://saport.sabanci.com/tr-tr/Lists/Banners//160916_sh_700x329.jpg</ImageUrl>
+    <LinkUrlForMobile>Güler-Sabancı-Yine-Dünyanın-En-Güçlü-Kadınları-Arasında0916-3450.aspx</LinkUrlForMobile>
+    <LinkUrl>Güler-Sabancı-Yine-Dünyanın-En-Güçlü-Kadınları-Arasında0916-3450.aspx</LinkUrl>
+    <Title>Güler Sabancı Yine Dünyanın En Güçlü Kadınları Arasında</Title>
+    <IsExternalLink>false</IsExternalLink>
+    <Created>0001-01-01T00:00:00</Created>
+    <BannerTypeName>News</BannerTypeName>
+    <ItemId>1369</ItemId>
+    <RedirectPage>/NewsDetail.aspx?NewsId=1369</RedirectPage>
+  </Banner>
+</ArrayOfBanner>

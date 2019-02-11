@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97718590-3974-4334-BA10-4D60B4232F21}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Saport2.UI</RootNamespace>
+    <AssemblyName>Saport2.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>true</IncludeIisSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\exref\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.1.2.3\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=1.2.3.490, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.1.2.3\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MSCaptcha, Version=4.0.4250.31585, Culture=neutral, PublicKeyToken=b9ff12f28cdcf412, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\exref\mscaptcha4\MSCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Saport2.Data">
+      <HintPath>..\Saport2.Data\bin\Debug\Saport2.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Saport2.Service">
+      <HintPath>..\Saport2.Service\bin\Saport2.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="Saport2.Shared">
+      <HintPath>..\Saport2.Shared\bin\Debug\Saport2.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AnnouncementDetail.aspx" />
+    <Content Include="Announcements.aspx" />
+    <Content Include="Banner.aspx" />
+    <Content Include="BillBoard.aspx" />
+    <Content Include="BillBoardCategory.aspx" />
+    <Content Include="BillBoardDetail.aspx" />
+    <Content Include="CampaignDetail.aspx" />
+    <Content Include="Campaigns.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="PopupTest.aspx" />
+    <Content Include="resources\img\anamenu-fon.png" />
+    <Content Include="resources\img\arama-fon.png" />
+    <Content Include="resources\img\billboard\ilan-img.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="News.aspx" />
+    <Content Include="NewsDetail.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PortalFeeds.aspx" />
+    <Content Include="PostDetail.aspx" />
+    <Content Include="Posts.aspx" />
+    <Content Include="resources\img\160216_holding_700x329.jpg" />
+    <Content Include="resources\img\160216_kordsa_700x329.jpg" />
+    <Content Include="resources\img\160216_temsa_2_700x329.jpg" />
+    <Content Include="resources\img\160216_temsa_700x329.jpg" />
+    <Content Include="resources\img\160216_yunsa_700x329.jpg" />
+    <Content Include="resources\img\160217_holding_700x329.jpg" />
+    <Content Include="resources\img\160219_holding_700x329.jpg" />
+    <Content Include="resources\img\altin_yaka_270x87_new.png" />
+    <Content Include="resources\img\arrows.png" />
+    <Content Include="resources\img\authorsControl-bg.png" />
+    <Content Include="resources\img\bg.jpg" />
+    <Content Include="resources\img\billboard\Diğer.png" />
+    <Content Include="resources\img\billboard\Elektronik.png" />
+    <Content Include="resources\img\billboard\Emlak.png" />
+    <Content Include="resources\img\billboard\Kişisel Ürünler.png" />
+    <Content Include="resources\img\billboard\Vasıta.png" />
+    <Content Include="resources\img\blog-cat-bg.png" />
+    <Content Include="resources\img\bluesearch.jpg" />
+    <Content Include="resources\img\BS ipek-senoglu-cup.jpg" />
+    <Content Include="resources\img\bugun-fon.png" />
+    <Content Include="resources\img\campaign-site-logo.png" />
+    <Content Include="resources\img\cicek.png" />
+    <Content Include="resources\img\dokumanlar_270x87.png" />
+    <Content Include="resources\img\duyuru-icon.png" />
+    <Content Include="resources\img\favicon.ico" />
+    <Content Include="resources\img\feed-icon-1.png" />
+    <Content Include="resources\img\feed-icon-2.png" />
+    <Content Include="resources\img\feed-icon-3.png" />
+    <Content Include="resources\img\feed-icon3.png" />
+    <Content Include="resources\img\feed-list-item-atr-bg.png" />
+    <Content Include="resources\img\feed-list-item-bg.png" />
+    <Content Include="resources\img\glyphicons-halflings.png" />
+    <Content Include="resources\img\hava-doviz.png" />
+    <Content Include="resources\img\homeimg.png" />
+    <Content Include="resources\img\icpdf.png" />
+    <Content Include="resources\img\ikSelfServisUygulamalari.jpg" />
+    <Content Include="resources\img\i_haberler.png" />
+    <Content Include="resources\img\kampanyalar-title.png" />
+    <Content Include="resources\img\left.png" />
+    <Content Include="resources\img\loader.gif" />
+    <Content Include="resources\img\login-area.png" />
+    <Content Include="resources\img\menu-fon.png" />
+    <Content Include="resources\img\menu-icon.png" />
+    <Content Include="resources\img\pause.png" />
+    <Content Include="resources\img\PersonPlaceholder.png" />
+    <Content Include="resources\img\play.png" />
+    <Content Include="resources\img\right.png" />
+    <Content Include="resources\img\sa-logo.png" />
+    <Content Include="resources\img\sabanci-twitter.jpg" />
+    <Content Include="resources\img\sabanci.jpg" />
+    <Content Include="resources\img\sabanci_64x64.png" />
+    <Content Include="resources\img\saport-banner.png" />
+    <Content Include="resources\img\sa_etik_270x87.png" />
+    <Content Include="resources\img\search-btn.png" />
+    <Content Include="resources\img\search-icon.png" />
+    <Content Include="resources\img\searchresultui.png" />
+    <Content Include="resources\img\sencard.jpg" />
+    <Content Include="resources\img\sencard_2.jpg" />
+    <Content Include="resources\img\sg_270x87.png" />
+    <Content Include="resources\img\site-logo.png" />
+    <Content Include="resources\img\slide-bg-active.png" />
+    <Content Include="resources\img\slide-bg.png" />
+    <Content Include="resources\img\slide_desc.png" />
+    <Content Include="resources\img\spacer.gif" />
+    <Content Include="resources\img\tb-exchange-bg.png" />
+    <Content Include="resources\img\tb-exchange-flag1.png" />
+    <Content Include="resources\img\tb-exchange-flag2.png" />
+    <Content Include="resources\img\tb-exchange-icon.png" />
+    <Content Include="resources\img\tb-weather-bg.png" />
+    <Content Include="resources\img\tv.png" />
+    <Content Include="resources\img\varsa-yoksa.png" />
+    <Content Include="resources\img\weather\day\113.png" />
+    <Content Include="resources\img\weather\day\116.png" />
+    <Content Include="resources\img\weather\day\119.png" />
+    <Content Include="resources\img\weather\day\122.png" />
+    <Content Include="resources\img\weather\day\143.png" />
+    <Content Include="resources\img\weather\day\176.png" />
+    <Content Include="resources\img\weather\day\179.png" />
+    <Content Include="resources\img\weather\day\182.png" />
+    <Content Include="resources\img\weather\day\185.png" />
+    <Content Include="resources\img\weather\day\200.png" />
+    <Content Include="resources\img\weather\day\227.png" />
+    <Content Include="resources\img\weather\day\230.png" />
+    <Content Include="resources\img\weather\day\248.png" />
+    <Content Include="resources\img\weather\day\260.png" />
+    <Content Include="resources\img\weather\day\263.png" />
+    <Content Include="resources\img\weather\day\266.png" />
+    <Content Include="resources\img\weather\day\281.png" />
+    <Content Include="resources\img\weather\day\284.png" />
+    <Content Include="resources\img\weather\day\293.png" />
+    <Content Include="resources\img\weather\day\296.png" />
+    <Content Include="resources\img\weather\day\299.png" />
+    <Content Include="resources\img\weather\day\302.png" />
+    <Content Include="resources\img\weather\day\305.png" />
+    <Content Include="resources\img\weather\day\308.png" />
+    <Content Include="resources\img\weather\day\311.png" />
+    <Content Include="resources\img\weather\day\314.png" />
+    <Content Include="resources\img\weather\day\317.png" />
+    <Content Include="resources\img\weather\day\320.png" />
+    <Content Include="resources\img\weather\day\323.png" />
+    <Content Include="resources\img\weather\day\326.png" />
+    <Content Include="resources\img\weather\day\329.png" />
+    <Content Include="resources\img\weather\day\332.png" />
+    <Content Include="resources\img\weather\day\335.png" />
+    <Content Include="resources\img\weather\day\338.png" />
+    <Content Include="resources\img\weather\day\350.png" />
+    <Content Include="resources\img\weather\day\353.png" />
+    <Content Include="resources\img\weather\day\356.png" />
+    <Content Include="resources\img\weather\day\359.png" />
+    <Content Include="resources\img\weather\day\362.png" />
+    <Content Include="resources\img\weather\day\365.png" />
+    <Content Include="resources\img\weather\day\368.png" />
+    <Content Include="resources\img\weather\day\371.png" />
+    <Content Include="resources\img\weather\day\374.png" />
+    <Content Include="resources\img\weather\day\377.png" />
+    <Content Include="resources\img\weather\day\386.png" />
+    <Content Include="resources\img\weather\day\389.png" />
+    <Content Include="resources\img\weather\day\392.png" />
+    <Content Include="resources\img\weather\day\395.png" />
+    <Content Include="resources\img\weather\night\113.png" />
+    <Content Include="resources\img\weather\night\116.png" />
+    <Content Include="resources\img\weather\night\119.png" />
+    <Content Include="resources\img\weather\night\122.png" />
+    <Content Include="resources\img\weather\night\143.png" />
+    <Content Include="resources\img\weather\night\176.png" />
+    <Content Include="resources\img\weather\night\179.png" />
+    <Content Include="resources\img\weather\night\182.png" />
+    <Content Include="resources\img\weather\night\185.png" />
+    <Content Include="resources\img\weather\night\200.png" />
+    <Content Include="resources\img\weather\night\227.png" />
+    <Content Include="resources\img\weather\night\230.png" />
+    <Content Include="resources\img\weather\night\248.png" />
+    <Content Include="resources\img\weather\night\260.png" />
+    <Content Include="resources\img\weather\night\263.png" />
+    <Content Include="resources\img\weather\night\266.png" />
+    <Content Include="resources\img\weather\night\281.png" />
+    <Content Include="resources\img\weather\night\284.png" />
+    <Content Include="resources\img\weather\night\293.png" />
+    <Content Include="resources\img\weather\night\296.png" />
+    <Content Include="resources\img\weather\night\299.png" />
+    <Content Include="resources\img\weather\night\302.png" />
+    <Content Include="resources\img\weather\night\305.png" />
+    <Content Include="resources\img\weather\night\308.png" />
+    <Content Include="resources\img\weather\night\311.png" />
+    <Content Include="resources\img\weather\night\314.png" />
+    <Content Include="resources\img\weather\night\317.png" />
+    <Content Include="resources\img\weather\night\320.png" />
+    <Content Include="resources\img\weather\night\323.png" />
+    <Content Include="resources\img\weather\night\326.png" />
+    <Content Include="resources\img\weather\night\329.png" />
+    <Content Include="resources\img\weather\night\332.png" />
+    <Content Include="resources\img\weather\night\335.png" />
+    <Content Include="resources\img\weather\night\338.png" />
+    <Content Include="resources\img\weather\night\350.png" />
+    <Content Include="resources\img\weather\night\353.png" />
+    <Content Include="resources\img\weather\night\356.png" />
+    <Content Include="resources\img\weather\night\359.png" />
+    <Content Include="resources\img\weather\night\362.png" />
+    <Content Include="resources\img\weather\night\365.png" />
+    <Content Include="resources\img\weather\night\368.png" />
+    <Content Include="resources\img\weather\night\371.png" />
+    <Content Include="resources\img\weather\night\374.png" />
+    <Content Include="resources\img\weather\night\377.png" />
+    <Content Include="resources\img\weather\night\386.png" />
+    <Content Include="resources\img\weather\night\389.png" />
+    <Content Include="resources\img\weather\night\392.png" />
+    <Content Include="resources\img\weather\night\395.png" />
+    <Content Include="resources\img\well-title-arrow-bg.png" />
+    <Content Include="resources\img\well-title-bg.png" />
+    <Content Include="resources\scripts\demo.js" />
+    <Content Include="resources\scripts\jquery.easing.js" />
+    <Content Include="resources\scripts\jquery.flexslider-min.js" />
+    <Content Include="resources\scripts\jquery.flexslider.js" />
+    <Content Include="resources\scripts\jquery.jcarousel.min.js" />
+    <Content Include="resources\scripts\jquery.modal.js" />
+    <Content Include="resources\scripts\jquery.modal.min.js" />
+    <Content Include="resources\scripts\jquery.mousewheel.js" />
+    <Content Include="resources\scripts\jquery.pikachoose.full.js" />
+    <Content Include="resources\scripts\jquery.pikachoose.js" />
+    <Content Include="resources\scripts\main.debug.js" />
+    <Content Include="resources\scripts\main.js" />
+    <Content Include="resources\scripts\modernizr.js" />
+    <Content Include="resources\scripts\pSlider.js" />
+    <Content Include="resources\scripts\pSlider.min.js" />
+    <Content Include="resources\scripts\shBrushCss.js" />
+    <Content Include="resources\scripts\shBrushJScript.js" />
+    <Content Include="resources\scripts\shBrushXml.js" />
+    <Content Include="resources\scripts\shCore.js" />
+    <Content Include="resources\scripts\skdslider.js" />
+    <Content Include="resources\scripts\swipe.js" />
+    <Content Include="resources\styles\components.debug.css" />
+    <Content Include="resources\styles\demo.css" />
+    <Content Include="resources\styles\flexslider.css" />
+    <Content Include="resources\styles\fontello.css" />
+    <Content Include="resources\styles\icons\css\font-awesome.css" />
+    <Content Include="resources\styles\icons\css\font-awesome.min.css" />
+    <Content Include="resources\styles\icons\fonts\fontawesome-webfont.svg" />
+    <Content Include="resources\styles\icons\HELP-US-OUT.txt" />
+    <Content Include="resources\styles\jquery.modal.css" />
+    <Content Include="resources\styles\jquery.modal.min.css" />
+    <Content Include="resources\styles\main.debug.css" />
+    <Content Include="resources\styles\pikachoose\base.css" />
+    <Content Include="resources\styles\pikachoose\bottom.css" />
+    <Content Include="resources\styles\pikachoose\css3.css" />
+    <Content Include="resources\styles\pikachoose\left-without.css" />
+    <Content Include="resources\styles\pikachoose\left.css" />
+    <Content Include="resources\styles\pikachoose\next-horizontal.png" />
+    <Content Include="resources\styles\pikachoose\next-vertical.png" />
+    <Content Include="resources\styles\pikachoose\next.png" />
+    <Content Include="resources\styles\pikachoose\pause.png" />
+    <Content Include="resources\styles\pikachoose\play.png" />
+    <Content Include="resources\styles\pikachoose\prev-horizontal.png" />
+    <Content Include="resources\styles\pikachoose\prev-vertical.png" />
+    <Content Include="resources\styles\pikachoose\prev.png" />
+    <Content Include="resources\styles\pikachoose\rewind.png" />
+    <Content Include="resources\styles\pikachoose\tooltip.css" />
+    <Content Include="resources\styles\pikachoose\transitions.css" />
+    <Content Include="resources\styles\style2.css" />
+    <Content Include="robots.txt" />
+    <Content Include="Saport2.Master" />
+    <Content Include="resources\scripts\jquery-1.12.2.min.js" />
+    <Content Include="resources\scripts\knockout-3.4.0.js" />
+    <Content Include="resources\scripts\saport2main.js" />
+    <Content Include="resources\styles\gridsa.css" />
+    <Content Include="resources\styles\style.css" />
+    <Content Include="Startup.htm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Web References\com.postaguvercini.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\com.postaguvercini.www\smsservice.disco" />
+    <Content Include="Web_.config" />
+    <Content Include="Web_.Debug.config">
+      <DependentUpon>Web_.config</DependentUpon>
+    </Content>
+    <Content Include="Web_.Release.config">
+      <DependentUpon>Web_.config</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\EV.pubxml" />
+    <None Include="Properties\PublishProfiles\LOCAL_169.254.32.56.pubxml" />
+    <None Include="Properties\PublishProfiles\LOCAL_169.254.32.56_2.pubxml" />
+    <None Include="Properties\PublishProfiles\LOCAL_192.168.142.91.pubxml" />
+    <None Include="Properties\PublishProfiles\Saport2TestProfile.pubxml" />
+    <Content Include="resources\styles\icons\fonts\fontawesome-webfont.eot" />
+    <Content Include="resources\styles\icons\fonts\fontawesome-webfont.ttf" />
+    <Content Include="resources\styles\icons\fonts\fontawesome-webfont.woff" />
+    <Content Include="resources\styles\icons\fonts\fontawesome-webfont.woff2" />
+    <Content Include="resources\styles\icons\fonts\FontAwesome.otf" />
+    <Content Include="resources\styles\icons\less\animated.less" />
+    <Content Include="resources\styles\icons\less\bordered-pulled.less" />
+    <Content Include="resources\styles\icons\less\core.less" />
+    <Content Include="resources\styles\icons\less\fixed-width.less" />
+    <Content Include="resources\styles\icons\less\font-awesome.less" />
+    <Content Include="resources\styles\icons\less\icons.less" />
+    <Content Include="resources\styles\icons\less\larger.less" />
+    <Content Include="resources\styles\icons\less\list.less" />
+    <Content Include="resources\styles\icons\less\mixins.less" />
+    <Content Include="resources\styles\icons\less\path.less" />
+    <Content Include="resources\styles\icons\less\rotated-flipped.less" />
+    <Content Include="resources\styles\icons\less\screen-reader.less" />
+    <Content Include="resources\styles\icons\less\stacked.less" />
+    <Content Include="resources\styles\icons\less\variables.less" />
+    <Content Include="resources\styles\icons\scss\font-awesome.scss" />
+    <Content Include="resources\styles\icons\scss\_animated.scss" />
+    <Content Include="resources\styles\icons\scss\_bordered-pulled.scss" />
+    <Content Include="resources\styles\icons\scss\_core.scss" />
+    <Content Include="resources\styles\icons\scss\_fixed-width.scss" />
+    <Content Include="resources\styles\icons\scss\_icons.scss" />
+    <Content Include="resources\styles\icons\scss\_larger.scss" />
+    <Content Include="resources\styles\icons\scss\_list.scss" />
+    <Content Include="resources\styles\icons\scss\_mixins.scss" />
+    <Content Include="resources\styles\icons\scss\_path.scss" />
+    <Content Include="resources\styles\icons\scss\_rotated-flipped.scss" />
+    <Content Include="resources\styles\icons\scss\_screen-reader.scss" />
+    <Content Include="resources\styles\icons\scss\_stacked.scss" />
+    <Content Include="resources\styles\icons\scss\_variables.scss" />
+    <None Include="Web References\com.postaguvercini.www\smsservice.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="resources\scripts\ai.0.15.0-build58334.js" />
+    <Content Include="resources\scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="resources\scripts\jquery.newsTicker.min.js" />
+    <Content Include="Search.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnnouncementDetail.aspx.cs">
+      <DependentUpon>AnnouncementDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnnouncementDetail.aspx.designer.cs">
+      <DependentUpon>AnnouncementDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements.aspx.cs">
+      <DependentUpon>Announcements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Announcements.aspx.designer.cs">
+      <DependentUpon>Announcements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Banner.aspx.cs">
+      <DependentUpon>Banner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Banner.aspx.designer.cs">
+      <DependentUpon>Banner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BillBoard.aspx.cs">
+      <DependentUpon>BillBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BillBoard.aspx.designer.cs">
+      <DependentUpon>BillBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BillBoardCategory.aspx.cs">
+      <DependentUpon>BillBoardCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BillBoardCategory.aspx.designer.cs">
+      <DependentUpon>BillBoardCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BillBoardDetail.aspx.cs">
+      <DependentUpon>BillBoardDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BillBoardDetail.aspx.designer.cs">
+      <DependentUpon>BillBoardDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CampaignDetail.aspx.cs">
+      <DependentUpon>CampaignDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CampaignDetail.aspx.designer.cs">
+      <DependentUpon>CampaignDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns.aspx.cs">
+      <DependentUpon>Campaigns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns.aspx.designer.cs">
+      <DependentUpon>Campaigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsDetail.aspx.cs">
+      <DependentUpon>NewsDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsDetail.aspx.designer.cs">
+      <DependentUpon>NewsDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopupTest.aspx.cs">
+      <DependentUpon>PopupTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopupTest.aspx.designer.cs">
+      <DependentUpon>PopupTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortalFeeds.aspx.cs">
+      <DependentUpon>PortalFeeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalFeeds.aspx.designer.cs">
+      <DependentUpon>PortalFeeds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostDetail.aspx.cs">
+      <DependentUpon>PostDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostDetail.aspx.designer.cs">
+      <DependentUpon>PostDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Posts.aspx.cs">
+      <DependentUpon>Posts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Posts.aspx.designer.cs">
+      <DependentUpon>Posts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Saport2.Master.cs">
+      <DependentUpon>Saport2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Saport2.Master.designer.cs">
+      <DependentUpon>Saport2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.postaguvercini.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="mobile\" />
+    <Folder Include="Models\" />
+    <Folder Include="Properties\DataSources\" />
+    <Folder Include="resources\styles\fonts\" />
+    <Folder Include="temp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Saport2.Business\Saport2.Business.csproj">
+      <Project>{1490754d-4dc8-4a80-8e27-d44867380f3d}</Project>
+      <Name>Saport2.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.postaguvercini.com/api_ws/smsservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.postaguvercini.www\</RelPath>
+      <UpdateFromURL>http://www.postaguvercini.com/api_ws/smsservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Saport2_UI_com_postaguvercini_www_smsservice</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49204</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65339/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

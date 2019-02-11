@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfPostCategory xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PostCategory>
+    <CategoryName>saglik</CategoryName>
+    <Title>Sağlık</Title>
+  </PostCategory>
+  <PostCategory>
+    <CategoryName>hobiyazilari</CategoryName>
+    <Title>Hobi</Title>
+  </PostCategory>
+  <PostCategory>
+    <CategoryName>kisiselgelisim</CategoryName>
+    <Title>Kişisel Gelişim</Title>
+  </PostCategory>
+  <PostCategory>
+    <CategoryName>kultursanat</CategoryName>
+    <Title>Kültür-Sanat</Title>
+  </PostCategory>
+  <PostCategory>
+    <CategoryName>teknoloji</CategoryName>
+    <Title>Teknoloji</Title>
+  </PostCategory>
+  <PostCategory>
+    <CategoryName>gezi</CategoryName>
+    <Title>Gezi</Title>
+  </PostCategory>
+</ArrayOfPostCategory>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1490754D-4DC8-4A80-8E27-D44867380F3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Saport2.Business</RootNamespace>
+    <AssemblyName>Saport2.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.Search, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\AnnouncementModel.cs" />
+    <Compile Include="Entity\AnnouncementService.cs" />
+    <Compile Include="Entity\BannerModel.cs" />
+    <Compile Include="Entity\BannerService.cs" />
+    <Compile Include="Entity\BillBoardModel.cs" />
+    <Compile Include="Entity\BillBoardService.cs" />
+    <Compile Include="Entity\CampaignModel.cs" />
+    <Compile Include="Entity\CampaignService.cs" />
+    <Compile Include="Entity\EventModel.cs" />
+    <Compile Include="Entity\EventService.cs" />
+    <Compile Include="Entity\ExchangeRateModel.cs" />
+    <Compile Include="Entity\ExchangeRateService.cs" />
+    <Compile Include="Entity\NavModel.cs" />
+    <Compile Include="Entity\NavService.cs" />
+    <Compile Include="Entity\NewsModel.cs" />
+    <Compile Include="Entity\NewsService.cs" />
+    <Compile Include="Entity\PageModel.cs" />
+    <Compile Include="Entity\PageService.cs" />
+    <Compile Include="Entity\PortalFeedsModel.cs" />
+    <Compile Include="Entity\PortalFeedsService.cs" />
+    <Compile Include="Entity\PostModel.cs" />
+    <Compile Include="Entity\PostService.cs" />
+    <Compile Include="Entity\SampleEntityModel.cs" />
+    <Compile Include="Entity\SampleEntityService.cs" />
+    <Compile Include="Entity\SaUserModel.cs" />
+    <Compile Include="Entity\SaUserService.cs" />
+    <Compile Include="Entity\SearchModel.cs" />
+    <Compile Include="Entity\SerachService.cs" />
+    <Compile Include="Entity\StaticLinkModel.cs" />
+    <Compile Include="Entity\StaticLinkService.cs" />
+    <Compile Include="Entity\WeatherStatusModel.cs" />
+    <Compile Include="Entity\WeatherStatusService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.postaguvercini.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.postaguvercini.com/api_ws/smsservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.postaguvercini.www\</RelPath>
+      <UpdateFromURL>http://www.postaguvercini.com/api_ws/smsservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Saport2_Business_com_postaguvercini_www_smsservice</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.postaguvercini.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.postaguvercini.www\smsservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\com.postaguvercini.www\smsservice.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Saport2.Data\Saport2.Data.csproj">
+      <Project>{cf485488-c668-4fe9-abb3-66dbb88dff96}</Project>
+      <Name>Saport2.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Saport2.Shared\Saport2.Shared.csproj">
+      <Project>{bf835319-5a98-463c-86e1-19b48131ec5d}</Project>
+      <Name>Saport2.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
